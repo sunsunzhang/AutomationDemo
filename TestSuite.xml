@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  	<parameter name="id" value="40"></parameter>
+    <classes>
+      <class name="stepDefination.SimpleDemo"/>
+    </classes>
+  </test>
+</suite>
